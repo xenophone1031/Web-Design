@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    height: 700px;
+}
+.header-outer{
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+    width: 200px;
+    height: 40px;
+}
+.menu{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.menu li:hover{
+    background-color: slateblue;
+    color: white;
+}
+.sub-menu{
+    position: relative;
+    z-index: 10;
+    display: none;
+}
+.sub-menu li{
+    background-color: silver;
+}
+.slide{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+}
+.slide li{
+animation: sd 6s infinite;
+}
+    @keyframes sd{
+        0%{
+            transform: translateX(-0px);
+        }
+        33%{
+            transform: translateX(-1200px);
+        }
+        66%{
+            transform: translateX(-2400px);
+        }
+        100%{
+            transform: translateX(-0px);
+        }
+    }
+.contents{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+.notice{
+    width: 400px;
+    height: 200px;
+}
+.notice button{
+    width: 100px;
+    height: 25px;
+    background-color: pink;
+}
+.tab1{
+        width: 400px;
+        height: 175px;
+        border: 1px solid #ccc;
+    }
+    .tab1 li{
+    margin-top: 7px;
+    }
+    .tab2{
+        width: 400px;
+        height: 175px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid #ccc;
+    }
+    .tab2 li{
+
+    }
+    .tab2 li img{
+    width: 120px;
+    height: 120px;
+    }
+.banner{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.banner img{
+    width: 400px;
+    height: 200px;
+}
+.banner img:hover{
+    opacity: 0.5;
+}
+.shortcut{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.shortcut img{
+    width: 120px;
+    height: 120px;
+}
+.shortcut img:hover{
+    transform: scale(1.1);
+}
+.footer-outer{
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+}
+.footer{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.logo2{
+    width: 200px;
+    height: 40px;
+}
+.logo2 img{
+    width: 200px;
+    height: 40px;
+}
+.f-menu{
+    width: 1000px;
+    height: 100px;
+}
+.top{
+    width: 1000px;
+    height: 50px;
+}
+.bottom{
+    width: 1000px;
+    height: 50px;
+}
+.pop{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    background-color: pink;
+
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    display: none;
+}
